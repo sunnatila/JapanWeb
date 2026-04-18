@@ -1,0 +1,228 @@
+{
+  "about1": "約",
+  "services1": "サービス",
+  "partners1": "パートナー",
+  "contact1": "連絡先",
+  "faq1": "よくある質問",
+  "products1": "製品",
+"about": {
+  "title": "ISS JAPAN株式会社について",
+  "subtitle": "日本の自動車業界のエクセレンスを信頼できるパートナーとして。世界中に高品質な中古車、タイヤ、自動車部品をお届けします。",
+  "historyTitle": "私たちの経験",
+  "historyDesc": "中古タイヤ、中古車、自動車部品の国内外取引を専門とし、日本製品の正式な輸出ライセンスを持つ確立された自動車会社です。",
+  "valuesTitle": "私たちの価値観",
+  "valuesDesc": "チームワーク、多文化の専門知識、そして経験豊富な国際スタッフによるお客様のあらゆる要求への対応を大切にしています。",
+  "missionTitle": "私たちのサービス",
+  "missionDesc": "日本のオークションでの車両購入、車両修理、配送サービス、車、タイヤ、自動車部品の輸出入ソリューションを含む包括的なサービスを提供しています。"
+},
+   "services": {
+    "badge": "私たちのサービス",
+    "title": "私たちのサービス",
+    "subtitle": "お客様の具体的なニーズと要件に合わせた包括的な自動車ソリューションを提供しています",
+    "loading": "サービスを読み込み中...",
+    "learnMore": "詳細を見る",
+    "noServices": "利用可能なサービスがありません",
+    "defaultTitle": "サービスタイトル",
+    "defaultDescription": "サービス説明",
+    "modal": {
+      "serviceDetails": "サービスの詳細",
+      "loading": "読み込み中...",
+      "loadingMessage": "サービスの詳細を取得しています",
+      "description": "説明",
+      "additionalInfo": "追加情報",
+      "serviceInfo": "サービス情報",
+      "created": "作成日",
+      "updated": "更新日",
+      "author": "作成者",
+      "unableToLoad": "詳細を読み込めません",
+      "loadError": "現在、サービスの詳細を読み込むことができません。",
+      "tryAgain": "再試行",
+      "close": "閉じる",
+      "na": "該当なし"
+    },
+    "error": {
+      "title": "サービスの読み込みエラー",
+      "tryAgain": "再試行",
+      "warning": "⚠️"
+    },
+    "categories": {
+      "engineering": "エンジニアリングサービス",
+      "quality": "品質保証",
+      "logistics": "物流ソリューション"
+    }
+  },
+  "contact": {
+    "badge": "お問い合わせ",
+    "title": "お問い合わせください",
+    "subtitle": "ぜひお聞かせください。メッセージをお送りいただければ、可能な限り迅速に対応いたします。",
+    "officeLabel": "オフィス電話",
+    "ceoLabel": "CEO携帯",
+    "managerLabel": "マネージャー携帯",
+    "phoneLabel": "電話",
+    "phoneValue": "+81 90-1234-5678",
+    "emailLabel": "メール",
+    "emailValue": "issjapan2023@gmail.com",
+    "locationLabel": "場所",
+    "locationValue": "CVCC+7M Kaminokawa, Tochigi, Japan",
+    "descriptionCardTitle": "つながりましょう",
+    "descriptionCardText": "サービスについてのご質問、サポートが必要な場合、またはパートナーシップについて話し合いたい場合でも、私たちのチームがお手伝いする準備ができています。",
+    "form": {
+      "name": "フルネーム",
+      "namePlaceholder": "フルネームを入力してください",
+      "phone": "電話番号",
+      "phonePlaceholder": "電話番号を入力してください",
+      "message": "メッセージ",
+      "messagePlaceholder": "プロジェクトやお問い合わせについて教えてください",
+      "send": "メッセージを送信",
+      "sending": "送信中..."
+    },
+    "success": {
+      "title": "メッセージが送信されました！",
+      "message": "お問い合わせありがとうございます。可能な限り迅速にご連絡いたします。",
+      "sendAnother": "別のメッセージを送信"
+    },
+    "error": {
+      "title": "送信に失敗しました",
+      "message": "現在メッセージを送信できません。後でもう一度お試しください。"
+    }
+  },
+  "faq": {
+    "title": "よくある質問",
+    "subtitle": "よくある質問への回答を見つける",
+    "loading": "FAQを読み込み中...",
+    "noFaqs": "現在利用可能なFAQはありません",
+    "error": {
+      "title": "FAQの読み込みエラー",
+      "message": "現在、よくある質問を読み込むことができません。",
+      "tryAgain": "再試行",
+      "warning": "⚠️"
+    }
+  },
+  "products": {
+    "badge": "私たちの製品",
+    "title": "私たちの製品",
+    "subtitle": "お客様のあらゆるニーズにお応えする高品質な自動車製品の包括的なラインナップをご覧ください",
+    "loading": "製品を読み込み中...",
+    "viewDetails": "詳細を見る",
+    "availableNow": "在庫あり",
+    "noProducts": "利用可能な製品がありません",
+    "defaultTitle": "製品タイトル",
+    "defaultDescription": "製品説明",
+    "priceNA": "価格情報なし",
+    "modal": {
+      "productDetails": "製品の詳細",
+      "loading": "読み込み中...",
+      "loadingMessage": "製品の詳細を取得しています",
+      "description": "説明",
+      "specifications": "仕様",
+      "features": "特徴",
+      "unableToLoad": "詳細を読み込めません",
+      "loadError": "現在、製品の詳細を読み込むことができません。",
+      "tryAgain": "再試行",
+      "close": "閉じる",
+      "addToCart": "カートに追加",
+      "buyNow": "今すぐ購入"
+    },
+    "error": {
+      "title": "製品の読み込みエラー",
+      "tryAgain": "再試行",
+      "warning": "⚠️"
+    },
+    "categories": {
+      "premium": "プレミアム",
+      "popular": "人気",
+      "new": "新着",
+      "trending": "トレンド",
+      "bestseller": "ベストセラー",
+      "limited": "限定"
+    }
+  },
+"footer": {
+  "companyTitle": "株式会社オーバードライブ",
+  "companyDesc": "10年以上にわたり高品質な自動車部品を提供しています。",
+  "contactTitle": "お問い合わせ",
+  "linksTitle": "リンク",
+  "about": "私たちについて",
+  "services": "サービス",
+  "faq": "よくある質問",
+  "products": "製品",
+  "contact": "連絡先",
+  "rights": "全著作権所有。"
+},
+ "swiper": {
+  "badge": "高品質・低価格",
+  "title": "高品質タイヤ＆ホイール",
+  "subtitle": "新品・中古タイヤとアルミホイールをお得な価格で！Over Drive GOLDにお任せください！",
+  "addToCart": "見積依頼",
+  "viewDetails": "お問い合わせ",
+  "part1": {
+    "name": "プレミアム中古タイヤ",
+    "model": "高品質・全サイズ対応",
+    "description": "お手頃価格で高品質な中古タイヤをご提供。安全性と性能を徹底検査済み。コストパフォーマンス抜群！",
+    "price": "最安値保証"
+  },
+  "part2": {
+    "name": "アルミホイール",
+    "model": "新品・中古コレクション", 
+    "description": "様々なデザインとサイズの美しいアルミホイール。お車のスタイルと性能の完璧な組み合わせ。",
+    "price": "特別価格"
+  },
+  "part3": {
+    "name": "自動車ボディパーツ",
+    "model": "完全品揃え",
+    "description": "自動車ボディ、タイヤ、ホイール、自動車部品の幅広い品揃え。専門的な点検・修理サービスも承ります。",
+    "price": "価格はお電話で"
+  },
+  "part4": {
+    "name": "プロフェッショナルサービス", 
+    "model": "車検・整備サービス",
+    "description": "車検、修理、メンテナンスを含む総合自動車サービス。査定無料！法人のお客様大歓迎！",
+    "price": "無料見積"
+  }
+},
+   "partners": {
+   "badge": "信頼できるパートナー",
+   "title": "私たちのパートナー",
+   "subtitle": "世界中で優れた自動車ソリューションを提供するため、業界のリーダーと協力しています。",
+   "gridTitle": "業界リーダーから信頼されています",
+   "since": "設立年",
+   "stats": {
+     "partners": "50+",
+     "partnersLabel": "アクティブパートナー",
+     "countries": "25+",
+     "countriesLabel": "国",
+     "growth": "150%",
+     "growthLabel": "年間成長率",
+     "awards": "12+",  
+     "awardsLabel": "受賞歴"
+   },
+   "benefits": {
+     "title": "パートナーシップの利点",
+     "description": "私たちの信頼できるパートナーネットワークに参加し、自動車業界での独占的な機会を開拓してください。",
+     "cta": "パートナーになる",
+     "item1": "グローバル市場へのアクセス",
+     "item2": "技術サポート", 
+     "item3": "マーケティング協力",
+     "item4": "優先価格"
+   }
+ },
+ "video": {
+    "badge": "私たちのビデオ",
+    "title": "ビデオギャラリー",
+    "subtitle": "最新のビデオをご覧いただき、コンテンツの最新情報をお受け取りください",
+    "loading": "ビデオを読み込み中...",
+    "noVideos": "ビデオがありません",
+    "noVideosDesc": "現在利用可能なビデオがありません。後でもう一度確認してください。",
+    "watchNow": "今見る",
+    "external": "外部",
+    "videoFile": "ビデオファイル",
+    "notSupported": "お使いのブラウザはビデオ再生をサポートしていません",
+    "unavailable": "ビデオが利用できません",
+    "errorTitle": "エラーが発生しました",
+    "tryAgain": "もう一度試す",
+    "close": "閉じる",
+    "loadingDesc": "ビデオが読み込まれています..."
+  }
+
+
+}

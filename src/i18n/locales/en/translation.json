@@ -1,0 +1,227 @@
+{
+  "about1": "About",
+  "services1": "Services",
+  "partners1": "Partners",
+  "contact1": "Contact",
+  "faq1": "FAQ",
+  "products1": "Products",
+  "about": {
+  "title": "About ISS JAPAN Co., LTD",
+  "subtitle": "Your trusted partner for Japanese automotive excellence. Quality used cars, tires, and auto parts worldwide.",
+  "historyTitle": "Our Experience",
+  "historyDesc": "Established automotive company specializing in used tires, used cars, and auto parts trading in domestic and international markets with official export license for Japanese national products.",
+  "valuesTitle": "Our Values",
+  "valuesDesc": "We believe in teamwork, multicultural expertise, and meeting every customer requirement with our experienced international staff.",
+  "missionTitle": "Our Services",
+  "missionDesc": "We offer comprehensive services including Japanese auction car purchases, vehicle repairs, delivery services, and export/import solutions for cars, tires, and auto parts."
+},
+   "services": {
+    "badge": "Our Services",
+    "title": "Our Services",
+    "subtitle": "We provide comprehensive automotive solutions tailored to meet your specific needs and requirements",
+    "loading": "Loading services...",
+    "learnMore": "Learn More",
+    "noServices": "No services available",
+    "defaultTitle": "Service Title",
+    "defaultDescription": "Service Description",
+    "modal": {
+      "serviceDetails": "Service Details",
+      "loading": "Loading...",
+      "loadingMessage": "Fetching service details for you",
+      "description": "Description",
+      "additionalInfo": "Additional Information",
+      "serviceInfo": "Service Information",
+      "created": "Created",
+      "updated": "Updated",
+      "author": "Author",
+      "unableToLoad": "Unable to load details",
+      "loadError": "The service details could not be loaded at this time.",
+      "tryAgain": "Try Again",
+      "close": "Close",
+      "na": "N/A"
+    },
+    "error": {
+      "title": "Error loading services",
+      "tryAgain": "Try Again",
+      "warning": "⚠️"
+    },
+    "categories": {
+      "engineering": "Engineering Services",
+      "quality": "Quality Assurance",
+      "logistics": "Logistics Solutions"
+    }
+  },
+ "contact": {
+   "badge": "Contact Us",
+   "title": "Get In Touch",
+   "subtitle": "We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+   "officeLabel": "Office Phone",
+   "ceoLabel": "CEO Mobile",
+   "managerLabel": "Manager Mobile",
+   "phoneLabel": "Phone",
+   "phoneValue": "+81 90-1234-5678",
+   "emailLabel": "Email",
+   "emailValue": "issjapan2023@gmail.com",
+   "locationLabel": "Location",
+   "locationValue": "CVCC+7M Kaminokawa, Tochigi, Japan",
+   "descriptionCardTitle": "Let's Connect",
+   "descriptionCardText": "Whether you have a question about our services, need support, or want to discuss a partnership, our team is ready to help you.",
+   "form": {
+     "name": "Full Name",
+     "namePlaceholder": "Enter your full name",
+     "phone": "Phone Number",
+     "phonePlaceholder": "Enter your phone number",
+     "message": "Message",
+     "messagePlaceholder": "Tell us about your project or inquiry",
+     "send": "Send Message",
+     "sending": "Sending..."
+   },
+   "success": {
+     "title": "Message Sent!",
+     "message": "Thank you for contacting us. We'll get back to you as soon as possible.",
+     "sendAnother": "Send Another Message"
+   },
+   "error": {
+     "title": "Failed to Send",
+     "message": "Unable to send your message at this time. Please try again later."
+   }
+ },
+    "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to commonly asked questions",
+    "loading": "Loading FAQs...",
+    "noFaqs": "No FAQs available at the moment",
+    "error": {
+      "title": "Error Loading FAQs",
+      "message": "Unable to load frequently asked questions at this time.",
+      "tryAgain": "Try Again",
+      "warning": "⚠️"
+    }
+  },
+"products": {
+    "badge": "Our Products",
+    "title": "Our Products",
+    "subtitle": "Discover our comprehensive range of high-quality automotive products designed to meet all your needs",
+    "loading": "Loading products...",
+    "viewDetails": "View Details",
+    "availableNow": "Available Now",
+    "noProducts": "No products available",
+    "defaultTitle": "Product Title",
+    "defaultDescription": "Product Description",
+    "priceNA": "Price not available",
+    "modal": {
+      "productDetails": "Product Details",
+      "loading": "Loading...",
+      "loadingMessage": "Fetching product details for you",
+      "description": "Description",
+      "specifications": "Specifications",
+      "features": "Features",
+      "unableToLoad": "Unable to load details",
+      "loadError": "The product details could not be loaded at this time.",
+      "tryAgain": "Try Again",
+      "close": "Close",
+      "addToCart": "Add to Cart",
+      "buyNow": "Buy Now"
+    },
+    "error": {
+      "title": "Error loading products",
+      "tryAgain": "Try Again",
+      "warning": "⚠️"
+    },
+    "categories": {
+      "premium": "Premium",
+      "popular": "Popular",
+      "new": "New",
+      "trending": "Trending",
+      "bestseller": "Best Seller",
+      "limited": "Limited"
+    }
+  },
+"footer": {
+  "companyTitle": "OverDrive Co., Ltd.",
+  "companyDesc": "We specialize in high-quality automotive parts for over 10 years.",
+  "contactTitle": "Contact Us",
+  "linksTitle": "Quick Links",
+  "about": "About",
+  "services": "Services",
+  "faq": "FAQ",
+  "products": "Products",
+  "contact": "Contact",
+  "rights": "All rights reserved."
+},
+ "swiper": {
+  "badge": "Premium Quality - Affordable Prices",
+  "title": "High Quality Tires & Wheels",
+  "subtitle": "New and used tires with aluminum wheels at unbeatable prices. Trust Over Drive GOLD for all your automotive needs!",
+  "addToCart": "Get Quote",
+  "viewDetails": "Contact Us",
+  "part1": {
+    "name": "Premium Used Tires",
+    "model": "High Quality - All Sizes",
+    "description": "Top quality used tires at affordable prices. Thoroughly inspected and tested for safety and performance. Great value for money!",
+    "price": "Best Prices"
+  },
+  "part2": {
+    "name": "Aluminum Wheels",
+    "model": "New & Used Collection",
+    "description": "Beautiful aluminum wheels in various designs and sizes. Perfect combination of style and performance for your vehicle.",
+    "price": "Special Offers"
+  },
+  "part3": {
+    "name": "Auto Body Parts",
+    "model": "Complete Selection",
+    "description": "Wide range of auto body parts, tires, wheels, and spare parts. Professional inspection and repair services available.",
+    "price": "Call for Price"
+  },
+  "part4": {
+    "name": "Professional Services",
+    "model": "Technical Inspection & Repair",
+    "description": "Complete automotive services including technical inspection, repairs, and maintenance. Free evaluation! Commercial organizations welcome!",
+    "price": "Free Quote"
+  }
+},
+ "partners": {
+    "badge": "Trusted Partners",
+    "title": "Our Partners",
+    "subtitle": "We collaborate with industry leaders to deliver exceptional automotive solutions worldwide.",
+    "gridTitle": "Trusted by Industry Leaders",
+    "since": "Since",
+    "stats": {
+      "partners": "50+",
+      "partnersLabel": "Active Partners",
+      "countries": "25+",
+      "countriesLabel": "Countries",
+      "growth": "150%",
+      "growthLabel": "Annual Growth",
+      "awards": "12+",
+      "awardsLabel": "Awards"
+    },
+    "benefits": {
+      "title": "Partnership Benefits",
+      "description": "Join our network of trusted partners and unlock exclusive opportunities in the automotive industry.",
+      "cta": "Become a Partner",
+      "item1": "Global market access",
+      "item2": "Technical support",
+      "item3": "Marketing collaboration",
+      "item4": "Priority pricing"
+    }
+  },
+    "video": {
+    "badge": "Our Videos",
+    "title": "Video Gallery",
+    "subtitle": "Watch our latest videos and stay updated with our content",
+    "loading": "Loading videos...",
+    "noVideos": "No videos available",
+    "noVideosDesc": "Currently there are no videos available. Please check back later.",
+    "watchNow": "Watch now",
+    "external": "External",
+    "videoFile": "Video File",
+    "notSupported": "Your browser does not support video playback",
+    "unavailable": "Video unavailable",
+    "errorTitle": "Error occurred",
+    "tryAgain": "Try again",
+    "close": "Close",
+    "loadingDesc": "Videos are being loaded..."
+  }
+
+}
