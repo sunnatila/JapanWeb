@@ -23,10 +23,16 @@ i18n
       order: ['localStorage', 'navigator', 'htmlTag'],
       caches: ['localStorage'],
       lookupLocalStorage: 'preferred-language',
+      // 'ru-RU', 'en-US' kabi kodlarni 'ru', 'en' ga keltirish (API /ru/, /en/, /ja/ kutadi)
+      convertDetectedLanguage: (lng) => lng.split('-')[0],
     },
     interpolation: {
       escapeValue: false,
     },
   })
+
+i18n.on('languageChanged', (lng) => {
+  document.documentElement.lang = lng
+})
 
 export default i18n

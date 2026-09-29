@@ -157,7 +157,7 @@ const Services = () => {
   // Format date function
   const formatDate = (dateString) => {
     if (!dateString) return t('services.modal.na')
-    return new Date(dateString).toLocaleDateString(i18n.language === 'ru' ? 'ru-RU' : 'en-US', {
+    return new Date(dateString).toLocaleDateString(({ ru: 'ru-RU', ja: 'ja-JP' })[i18n.resolvedLanguage] || 'en-US', {
       year: 'numeric',
       month: 'long',
       day: 'numeric'

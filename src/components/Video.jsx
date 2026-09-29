@@ -77,7 +77,8 @@ const VideoComponent = () => {
       errorTitle: 'Error occurred',
       tryAgain: 'Try again',
       close: 'Close',
-      loadingDesc: 'Videos are being loaded...'
+      loadingDesc: 'Videos are being loaded...',
+      sourceNotFound: 'Video source not found'
     },
     ru: {
       badge: 'Наши Видео',
@@ -94,7 +95,8 @@ const VideoComponent = () => {
       errorTitle: 'Произошла ошибка',
       tryAgain: 'Повторить',
       close: 'Закрыть',
-      loadingDesc: 'Видео загружаются...'
+      loadingDesc: 'Видео загружаются...',
+      sourceNotFound: 'Источник видео не найден'
     },
     ja: {
       badge: '私たちのビデオ',
@@ -111,7 +113,8 @@ const VideoComponent = () => {
       errorTitle: 'エラーが発生しました',
       tryAgain: 'もう一度試す',
       close: '閉じる',
-      loadingDesc: 'ビデオが読み込まれています...'
+      loadingDesc: 'ビデオが読み込まれています...',
+      sourceNotFound: 'ビデオソースが見つかりません'
     }
   }
 
@@ -351,7 +354,7 @@ const VideoComponent = () => {
                       <div className="text-center text-white">
                         <AlertCircle className="w-16 h-16 mx-auto mb-4 text-gray-400" />
                         <p className="text-xl font-medium mb-2">{getText('unavailable')}</p>
-                        <p className="text-gray-400">Video manbasi topilmadi</p>
+                        <p className="text-gray-400">{getText('sourceNotFound')}</p>
                       </div>
                     </div>
                   )}

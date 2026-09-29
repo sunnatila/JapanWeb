@@ -35,7 +35,7 @@ const LanguageSwitcher = () => {
     },
   ]
 
-  const currentLanguage = languages.find(lang => lang.code === i18n.language) || languages[0]
+  const currentLanguage = languages.find(lang => lang.code === i18n.resolvedLanguage) || languages[0]
 
   // Close dropdown when clicking outside or pressing Escape
   useEffect(() => {
@@ -63,7 +63,7 @@ const LanguageSwitcher = () => {
   }, [isOpen])
 
   const handleLanguageChange = (langCode) => {
-    if (langCode !== i18n.language) {
+    if (langCode !== i18n.resolvedLanguage) {
       i18n.changeLanguage(langCode)
       // Note: localStorage is not used in Claude artifacts, using in-memory storage instead
       // In real implementation, you can use: localStorage.setItem('preferred-language', langCode)

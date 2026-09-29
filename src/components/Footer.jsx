@@ -80,7 +80,7 @@ const Footer = () => {
               className="lg:col-span-2"
             >
               <div className="flex items-center gap-3 mb-6">
-                <img src="/logo.png" alt="OverDrive Logo" className="w-28 scale-[1.5] h-auto" />
+                <img src="/logo.png" alt="ISS Japan Logo" className="w-28 scale-[1.5] h-auto" />
               </div>
               
               <p className="text-gray-300 leading-relaxed mb-8 max-w-md">
@@ -187,15 +187,15 @@ const Footer = () => {
               <div className="flex items-center gap-2 text-sm text-gray-400">
                 <span>© 2021 ISS JAPAN</span>
                 <span>{t('footer.rights')}</span>
-                <span>Made with</span>
+                <span>{t('footer.madeWith')}</span>
                 <Heart className="w-4 h-4 text-red-400 fill-current" />
-                <span>in Japan</span>
+                <span>{t('footer.inJapan')}</span>
               </div>
               
               <div className="flex items-center gap-6 text-sm text-gray-400">
-                <a href="#privacy" className="hover:text-white transition-colors duration-300">Privacy Policy</a>
-                <a href="#terms" className="hover:text-white transition-colors duration-300">Terms of Service</a>
-                <a href="#cookies" className="hover:text-white transition-colors duration-300">Cookies</a>
+                <a href="#privacy" className="hover:text-white transition-colors duration-300">{t('footer.privacy')}</a>
+                <a href="#terms" className="hover:text-white transition-colors duration-300">{t('footer.terms')}</a>
+                <a href="#cookies" className="hover:text-white transition-colors duration-300">{t('footer.cookies')}</a>
               </div>
             </div>
           </div>

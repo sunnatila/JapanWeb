@@ -168,7 +168,7 @@ const ProductsSection = () => {
     if (!price) return t('products.priceNA')
     // String bo'lsa number ga aylantirish
     const numPrice = typeof price === 'string' ? parseFloat(price) : price
-    return new Intl.NumberFormat(i18n.language === 'ru' ? 'ru-RU' : 'en-US', {
+    return new Intl.NumberFormat(({ ru: 'ru-RU', ja: 'ja-JP' })[i18n.resolvedLanguage] || 'en-US', {
       style: 'currency',
       currency: 'USD'
     }).format(numPrice)
